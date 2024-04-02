@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #d3d3d3;
+    width: 40vw;
+}
+
+.title{
+    font-size: 2rem;
+}
+.container .separador{
+    display: flex;
+    align-items: center;
+    height: 0.1vh;
+    width: 40vw;
+    background-color: gray;
+}
+.container-input-button{
+    display: flex;
+    flex-direction: row;
+}
+.container-input-button input{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 30vw;
+    height: 3vh;
+}
+.container-input-button button{
+    width: 7vw;
+    background-color: green;
+    color: white;
+}
+.div-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-total-realizado{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+.total-div-y-realizadas{
+    display: flex;
+    flex-direction: row;
+}
+.id-tareas{
+    display: flex;
+    flex-direction: column;
+}
+.container-id{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3vw;
+}
+.container-id .id{
+    margin-right: 7vw;
+}
+.container-id-tarea{
+    display: flex;
+    flex-direction: column;
+}
